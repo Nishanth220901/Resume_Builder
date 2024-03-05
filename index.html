@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1><u>Resume builder</u></h1>
+    <h3>Enter all your details below!</h3>
+    <section>
+        <div>
+            <h2>Import Your Image by clicking below</h2>
+            <input type="button" id="imgbtn" name="imgbtn" value="Import" onclick="imgimport()">
+        </div>
+        
+       <div>
+            <h2>Basic Details:</h2>
+            <div>
+                <input type="text" id="fname" name="fname" value="" placeholder="First Name" /><br>
+                <input type="text" id="lname" name="lname" value="" placeholder="Last Name" />
+            </div>
+            <div>
+                <input type="text" id="role" name="role" value="" placeholder="Enter your role" />
+            </div>
+            <div>
+                <input type="text" id="phone" name="phone" value="" placeholder="Enter a Mobile Number" />
+            </div>
+            
+            <div>
+                <input type="text" id="email" name="email" value="" placeholder="Enter email" />
+            </div>
+            <div>
+                <input type="text" id="linkedin" name="linkedin" value="" placeholder="Linkedin Profile Link" />
+            </div>
+            <div>
+                <input type="text" id="git" name="git" value="" placeholder="Github Link" />
+            </div>
+        </div>
+        <div>
+            <h2>Objective:</h2>
+            <div>
+                <textarea name="obj" id="obj" value="" cols="100" rows="10" placeholder="Write Your Objective..."></textarea>
+            </div>
+        </div><hr>
+        <div>
+            <h2>Educational Qualifications:</h2>
+            <h4>SSLC Details:</h4>
+            <div>
+                <input type="text" id="tenmark" name="tenmark" value="" placeholder="Enter Your 10th Percentage">
+            </div>
+            <div>
+                <input type="text" id="tenschool" name="tenschool" value="" placeholder="Enter Your School Name">
+            </div>
+            <div>
+                <input type="text" id="tenlocation" name="tenmarklocation" value="" placeholder="Place">
+            </div>
+            <h4>HSC Details:</h4>
+            <div>
+                <input type="text" id="twelvemark" name="twelvemark" value="" placeholder="Enter Your 12th Percentage">
+            </div>
+            <div>
+                <input type="text" id="twelveschool" name="twelveschool" value="" placeholder="Enter Your School Name">
+            </div>
+            <div>
+                <input type="text" id="twelvelocation" name="twelvemarklocation" value=""
+                    placeholder="Place">
+            </div>
+            <h4>Under Graduation:</h4>
+            <div>
+                <input type="text" id="collegemark" name="collegemark" value=""
+                    placeholder="Enter Your College Percentage">
+            </div>
+            <div>
+                <input type="text" id="college" name="college" value="" placeholder="Enter Your College Name">
+            </div>
+            <div>
+                <input type="text" id="spec" name="spec" value="" placeholder="Enter your Specialization">
+            </div>
+            <div>
+                <input type="text" id="collegelocation" name="collegelocation" value="" placeholder="Place">
+            </div><hr>
+            <div>
+                <h2>Work Experience:</h2>
+                <div>
+                    <textarea name="workexp" id="workexp" value="" cols="100" rows="10" placeholder="Work Experience if any..."></textarea>
+                </div>
+            </div><hr>
+            <div>
+                <h2>Certifications:</h2>
+                <textarea name="c1" id="c1" value="" cols="100" rows="2" placeholder="Certification-1"></textarea>
+                <textarea name="c2" id="c2" value="" cols="100" rows="2" placeholder="Certification-2"></textarea>
+                <textarea name="c3" id="c3" value="" cols="100" rows="2" placeholder="Certification-3"></textarea><br>
+                <button>Add More Certificates</button>
+            </div><hr>
+            <div>
+                <h2>Skills:</h2>
+                <textarea name="s1" id="s1" value="" cols="20" rows="2" placeholder="Skill-1"></textarea><br>
+                <textarea name="s2" id="s2" value="" cols="20" rows="2" placeholder="Skill-2"></textarea><br>
+                <textarea name="s3" id="s3" value="" cols="20" rows="2" placeholder="Skill-3"></textarea><br>
+                <button>Add More Skills</button>
+            </div>
+            <div>
+                <h2>Declaration:</h2>
+                <div>
+                    <textarea name="dec" id="dec" value="" cols="100" rows="10" placeholder="Declare the things..."></textarea>
+                </div>
+            </div>
+
+        </div><hr>
+        <div>
+            <input type="button" id="btn1" name="btn1" value="Submit">
+            <input type="button" id="btn2" name="btn2" value="Print">
+        </div>
+
+
+
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+section
+{
+    background-color: whitesmoke;
+    width: 100%;
+    /* text-align: center; */
+
+}
